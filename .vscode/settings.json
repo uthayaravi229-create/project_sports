@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^node -e \"require\\('dns'\\)\\.promises\\.resolveSrv\\('_mongodb\\._tcp\\.cluster0\\.h0blqpz\\.mongodb\\.net'\\)\\.then\\(console\\.log\\)\\.catch\\(error => \\{ console\\.error\\(error\\.code \\+ ': ' \\+ error\\.message\\); process\\.exitCode = 1 \\}\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
